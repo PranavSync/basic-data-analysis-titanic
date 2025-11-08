@@ -25,7 +25,7 @@ To run this project locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_GITHUB_USERNAME/basic-data-analysis-titanic.git
+    git clone https://github.com/PranavSync/basic-data-analysis-titanic.git
     cd basic-data-analysis-titanic
     ```
 
@@ -70,15 +70,21 @@ To run this project locally, follow these steps:
 ![Survival Rate by Class and Sex](images/survival_by_class_sex.png)
 
 ## Project Structure
-
+```bash
+$ tree basic-data-analysis-titanic/
 basic-data-analysis-titanic/
-├── data/
-│ └── titanic.csv # Dataset file
-├── images/ # Folder for exported visualization images
-├── titanic_analysis.ipynb # Main Jupyter Notebook
-├── environment.yml # Conda environment file
-└── README.md # Project documentation (this file)
+├── data
+│   └── titanic.csv
+├── images
+│   ├── survival_by_sex.png
+│   ├── age_by_class_survival.png
+│   └── survival_by_class_sex.png
+├── titanic_analysis.ipynb
+├── environment.yml
+└── README.md
 
+2 directories, 7 files
+```
 
 ## References
 - [Titanic - Machine Learning from Disaster | Kaggle](https://www.kaggle.com/c/titanic)
