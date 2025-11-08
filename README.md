@@ -11,7 +11,7 @@ The final output is this Jupyter Notebook, which demonstrates proficiency in Pyt
 
 ## Dataset
 The dataset used is a version of the classic [Titanic dataset](https://www.kaggle.com/c/titanic/data), containing details for 1,309 passengers, including features like:
-- `Survived`: Whether the passenger survived (0 = No, 1 = Yes)
+- `2urvived`: Whether the passenger survived (0 = No, 1 = Yes)
 - `Pclass`: Passenger class (1 = 1st, 2 = 2nd, 3 = 3rd)
 - `Name`, `Sex`, `Age`, `SibSp`, `Parch`, `Ticket`, `Fare`, `Cabin`, `Embarked`
 
